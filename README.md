@@ -49,4 +49,4 @@ pytest tests/ -v
 
 ## Documentation
 
-Full project documentation (in Romanian) is available in [`docs/`](docs/documentatie.md).
+Full project documentation is available in Romanian and submitted separately.

@@ -1,3 +1,7 @@
 cd "/mnt/work/Proiect Final/finance-happiness"
-  source .venv/bin/activate
+  source .venv/bin/activate.fish
   python -m finance_happiness.main
+
+#TESTS
+
+cd "/mnt/work/Proiect Final/finance-happiness" && .venv/bin/pytest tests/
