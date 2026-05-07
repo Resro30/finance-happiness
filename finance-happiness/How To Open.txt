@@ -1,0 +1,3 @@
+cd "/mnt/work/Proiect Final/finance-happiness"
+  source .venv/bin/activate
+  python -m finance_happiness.main

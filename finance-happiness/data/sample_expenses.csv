@@ -1,0 +1,8 @@
+date,amount,category,description,experiential,social,planned,time_saving,duration_minutes
+2024-01-15,45.00,FOOD,Dinner at restaurant with friends,true,true,true,false,
+2024-01-16,120.00,ENTERTAINMENT,Jazz concert,true,true,true,false,90
+2024-01-17,800.00,ELECTRONICS,Mechanical keyboard,false,false,false,false,
+2024-01-18,25.00,TRANSPORT,Uber instead of 1h bus ride,false,false,false,true,
+2024-01-20,60.00,FOOD,Weekly groceries,false,false,true,false,
+2024-01-22,200.00,ENTERTAINMENT,New video game,true,false,true,false,6000
+2024-01-25,40.00,ENTERTAINMENT,Cinema ticket,true,true,true,false,110

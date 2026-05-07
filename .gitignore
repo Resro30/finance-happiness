@@ -1,0 +1,27 @@
+# Claude Code local config
+.claude/
+
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Build / packaging artifacts
+*.egg-info/
+dist/
+build/
+
+# Pytest cache
+.pytest_cache/
+
+# SQLite database (user data)
+*.db
+*.sqlite
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+PROJECT_BRIEF.md

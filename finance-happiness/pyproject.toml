@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finance-happiness"
+version = "0.1.0"
+description = "Personal Finance Manager with Happiness-Weighted Spending Analysis"
+requires-python = ">=3.11"
+dependencies = [
+    "PyQt6>=6.6",
+    "pandas>=2.1",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "pytest-qt>=4.2",
+]
+
+[project.scripts]
+finance-happiness = "finance_happiness.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
