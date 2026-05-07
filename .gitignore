@@ -1,5 +1,7 @@
-# Claude Code local config
+# Editor and IDE local config
 .claude/
+.idea/
+.vscode/
 
 # Virtual environment
 .venv/
